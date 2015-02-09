@@ -6,4 +6,4 @@ check device DRBD-filesystem with path /var/vcap/store
 
 check program DRBD-status with path /var/vcap/jobs/monitor_drbd_disk/bin/drbd_check.rb
     if status != 0 then alert
-
+    group vcap_monitor
