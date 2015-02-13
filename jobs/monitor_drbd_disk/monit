@@ -5,5 +5,5 @@ check device DRBD-filesystem with path /var/vcap/store
                 else if passed within 5 cycles then alert
 
 check program DRBD-status with path /var/vcap/jobs/monitor_drbd_disk/bin/drbd_check.rb
-    if status != 0 then alert
+    if status != 0 for 30 cycles then alert
     group vcap_monitor
