@@ -3,8 +3,6 @@ name: monitor_drbd_disk
 templates:
   drbd_check.rb.erb: bin/drbd_check.rb
 
-packages: {}
+packages: []
 
 properties: {}
-
-

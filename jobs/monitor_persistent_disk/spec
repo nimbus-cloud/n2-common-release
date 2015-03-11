@@ -2,7 +2,6 @@
 name: monitor_persistent_disk
 templates: {}
 
-packages: {}
+packages: []
 
 properties: {}
-

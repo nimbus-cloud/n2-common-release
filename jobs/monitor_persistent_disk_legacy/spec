@@ -3,6 +3,4 @@ name: monitor_persistent_disk_legacy
 
 templates: {}
 
-packages: {}
-
-
+packages: []

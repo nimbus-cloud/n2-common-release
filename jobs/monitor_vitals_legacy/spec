@@ -3,6 +3,4 @@ name: monitor_vitals_legacy
 
 templates: {}
 
-packages: {}
-
-
+packages: []
