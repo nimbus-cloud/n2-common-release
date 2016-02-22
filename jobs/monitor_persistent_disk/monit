@@ -1,4 +1,4 @@
-check device Persistent-filesystem with path /dev/sdc1
+check device Persistent-filesystem with path /var/vcap/store
     alert root@localhost on { resource } with reminder on 10 cycles
     group vcap_monitor
         if space usage is greater than 80% for 5 cycles then alert
